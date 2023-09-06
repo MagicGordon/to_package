@@ -4,14 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cmd": "ts-node index.ts"
+    "cmd": "ts-node index.ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ts-node": "^10.9.1",
     "@near-eth/utils": "2.4.0",
-    "ethers": "^5.4.6"
+    "ethers": "^5.4.6",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }
